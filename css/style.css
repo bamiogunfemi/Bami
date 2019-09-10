@@ -1,0 +1,297 @@
+/* header */
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+html,body,nav {
+  font-family: 'Gayathri', sans-serif;
+  font-size: 16px;
+  
+}
+
+html{
+  background:#1B1818;
+  height: 100%;
+  cursor: url(https://res.cloudinary.com/bamiogunfemi/image/upload/v1567765154/circle-cropped_gohvpj.png);
+  color: white;
+}
+
+/* nav */
+nav{
+
+  position: fixed; 
+  top: 4rem;
+  width: 100%;
+}
+
+
+span{
+  font-size:3rem;;
+}
+#logo{
+  color: #f2f2f2;
+  font-size: 200%;
+  padding-top: 2rem;
+}
+
+.navbar-brand:hover {
+  -webkit-animation:jello 1s;
+    animation: jello 1s;
+    margin-left: 2rem;
+}
+.navbar-brand{
+font-size: 3rem;
+
+}
+.nav-link{
+  color: gray;
+  font-size: 1.2rem;
+margin-top: 1.2rem;
+  
+
+}
+.nav-link:first-child{
+  margin-left: 2rem;
+}
+.nav-link:hover{
+  color: #f2f2f2;
+}
+/* 
+welcome-section */
+div.content{
+  padding-top: 24rem;
+  padding-left: 2rem;
+  border: none;
+  background:#1B1818;
+  font-family: 'Gayathri', sans-serif;
+}
+
+#scroll{
+ padding-top: 15rem;
+ color: gray;
+ 
+  
+}
+/* projects */
+.works{
+  background:#1B1818;
+  height: 200vh;
+  width: 100%;
+  padding:0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  
+}
+first.card{
+  background:#1B1818;
+  color: #f2f2f2;
+  width:70%;
+  height: 100%;
+  border:none;
+  overflow: hidden;
+ 
+
+}
+.show{
+  display: none;
+}
+.row{
+  padding: 1rem;
+  font-size:1.2rem;
+}
+.row:hover{
+  -webkit-animation:pulse 1s;
+  animation: pulse 1s;
+}
+.card-text{
+  display: block;
+  left:20%;
+  font-family: 'Gayathri', sans-serif;
+  padding: 5rem;
+  
+}
+.card-text-2{
+  display: block;
+  padding-top: 4rem;
+  font-family: 'Gayathri', sans-serif;
+  padding: 5rem;
+
+  
+}
+.none {
+  margin: 0;
+  padding:0;
+}
+.card-text-3{
+ 
+ display: block;
+ margin-right: 10px;
+ padding:0;
+ font-family: 'Gayathri', sans-serif;
+}
+
+.card-image{
+  background:#1B1818;
+}
+.rounded-video{
+border-radius:30%;
+width:20rem;
+  height: 10rem;
+}
+.second-card{
+  position: absolute;
+  left: 30%;
+  transform:translateX(-50%);
+  margin-bottom: 3rem;
+}
+#contact{
+  height:100vh;
+  width: 100%;
+  font-size: 3.5rem;
+  background-color:#EDEDED;
+  overflow: hidden;
+
+
+}
+#lets{
+  padding-top: 15rem;
+}
+#hello{
+  border-bottom: 4px solid grey;
+  width:36rem;
+  
+}
+#hello a{
+  text-decoration: none;
+  color: black;
+}
+#hello:hover{
+  border-bottom: 4px solid black;
+}
+hr{
+  padding-top: 10rem;
+  color:
+}
+/* footer */
+footer{
+  background-color:#EDEDED;
+  font-family: 'Gayathri', sans-serif;
+}
+
+div>hr{
+  margin-top: 16rem;
+  width: 70rem;
+}
+#copyright{
+  margin-top:-10rem;
+  font-size: 1rem;
+  color: gray;
+  display:flex;
+
+  }
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-flex
+
+ 
+ 
+}
+
+
+li a {
+  padding: 6px;
+  text-decoration:none;
+}
+
+
+/* Responsiveness */
+/* Nav */
+@media screen and (max-width: 600px) {
+nav{
+  
+  overflow: hidden;
+  font-size:0.5rem;
+  display: inline;
+}
+.area{
+margin-left: -3rem;
+}
+.nav-link{
+  margin-right: 5rem;
+  font-size:0.7rem;
+}
+/* welcome-section */
+
+/* projects */
+#projects{
+  bottom:2rem;
+}
+span{
+  font-size: 1rem;
+}
+div.content{
+padding-top:20rem;
+}
+.card-text{
+ top:2rem;
+}
+.first-card{
+top: 5rem;
+
+}
+.show{
+  display: block;
+}
+.card-text-2{
+  top:-6rem;
+}
+.second-card{
+  top:4rem;
+ left:10rem;
+}
+h5{
+  padding-top: 1rem;
+  text-align: center;
+}
+.corner{
+ top:1rem;
+}
+.paycard{
+  width:150%;
+}
+.works{
+
+  height: 180vh;
+}
+#lets{
+  font-size: 2rem;
+}
+div>hr{
+  margin-top: 8rem;
+  width: 70rem;
+}
+#copyright{
+  margin-top:-10rem;
+  font-size: 0.6rem;
+  color: gray;
+  display:block;
+
+
+  }
+  .flex-item-1{
+    text-align:center;
+  }
+  .ml-auto{
+    padding-left: 4rem;
+  }
+  #contact{
+   height: 100vh;
+  }
+  .hide{
+    display: none;
+  }
+ 
+}

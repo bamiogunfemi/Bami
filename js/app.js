@@ -54,3 +54,14 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+// Change on scroll
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 2200){
+    $('.scrolled').addClass('nav-color');
+  }else {
+    $('.scrolled').removeClass('nav-color');
+  }
+});
+  
+if

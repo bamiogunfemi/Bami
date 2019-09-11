@@ -53,6 +53,17 @@ margin-top: 1.2rem;
 .nav-link:hover{
   color: #f2f2f2;
 }
+.custom-toggler.navbar-toggler {
+  border-color:black ;
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler .navbar-toggler-icon:active {
+  border-color: black
+  }
+  
+
 /* 
 welcome-section */
 div.content{
@@ -70,6 +81,14 @@ div.content{
   
 }
 /* projects */
+.scrolled.nav-color{
+  color: #1B1818 !important;
+  
+}
+.scrolled.nav-color:hover{
+  color: gray !important;
+}
+
 .works{
   background:#1B1818;
   height: 200vh;

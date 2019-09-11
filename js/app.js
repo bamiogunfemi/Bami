@@ -63,5 +63,3 @@ $(window).scroll(function(){
     $('.scrolled').removeClass('nav-color');
   }
 });
-  
-if

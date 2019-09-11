@@ -3,22 +3,27 @@
 html,body,nav {
   font-family: 'Gayathri', sans-serif;
   font-size: 16px;
+  width:100%;
   
 }
-
+body{
+  scroll-behavior: smooth;
+	overflow-x: hidden;
+}
 html{
-  background:#1B1818;
   height: 100%;
   cursor: url(https://res.cloudinary.com/bamiogunfemi/image/upload/v1567765154/circle-cropped_gohvpj.png);
   color: white;
+  overflow-x: hidden;
+  width:100%;
 }
 
 /* nav */
 nav{
-
+ 
+	z-index: 2;
   position: fixed; 
   top: 4rem;
-  width: 100%;
 }
 
 
@@ -55,14 +60,13 @@ margin-top: 1.2rem;
 }
 .custom-toggler.navbar-toggler {
   border-color:black ;
+  transform: translateY(40%);
 }
+
 .custom-toggler .navbar-toggler-icon {
 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
 }
-.custom-toggler .navbar-toggler-icon:active {
-  border-color: black
-  }
-  
 
 /* 
 welcome-section */
@@ -77,13 +81,11 @@ div.content{
 #scroll{
  padding-top: 15rem;
  color: gray;
- 
-  
 }
 /* projects */
 .scrolled.nav-color{
   color: #1B1818 !important;
-  
+  background-color: yellow;
 }
 .scrolled.nav-color:hover{
   color: gray !important;
@@ -91,7 +93,7 @@ div.content{
 
 .works{
   background:#1B1818;
-  height: 200vh;
+  height: 100%;
   width: 100%;
   padding:0;
   margin: 0;
@@ -188,7 +190,7 @@ width:20rem;
 }
 hr{
   padding-top: 10rem;
-  color:
+
 }
 /* footer */
 footer{
@@ -230,10 +232,12 @@ li a {
 /* Nav */
 @media screen and (max-width: 600px) {
 nav{
-  
+    background-color: #1B1818;
   overflow: hidden;
   font-size:0.5rem;
   display: inline;
+
+  overflow-x: hidden;
 }
 .area{
 margin-left: -3rem;
@@ -258,7 +262,7 @@ padding-top:20rem;
  top:2rem;
 }
 .first-card{
-top: 5rem;
+top: 3rem;
 
 }
 .show{

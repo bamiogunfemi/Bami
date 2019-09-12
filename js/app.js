@@ -59,7 +59,9 @@ window.onload = function() {
 $(window).scroll(function(){
   if ($(this).scrollTop() > 2200){
     $('.scrolled').addClass('nav-color');
+    console.log(this.function);
+    
   }else {
     $('.scrolled').removeClass('nav-color');
-  }
+  };
 });

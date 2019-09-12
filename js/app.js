@@ -56,12 +56,23 @@ window.onload = function() {
 };
 
 // Change on scroll
-$(window).scroll(function(){
-  if ($(this).scrollTop() > 2200){
-    $('.scrolled').addClass('nav-color');
-    console.log(this.function);
+// $(Window).scroll(function(){
+//   if ($(this).scrollTop() > 2200){
+//     $('.scrolled').addClass('nav-color');
+//     console.log(this.function);
     
-  }else {
-    $('.scrolled').removeClass('nav-color');
-  };
+//   }else {
+//     $('.scrolled').removeClass('nav-color');
+//   };
+// });
+// $(window).scroll(function(){
+// 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+// });
+$(window).scroll(function(){
+  var scroll = $(window).scrollTop();
+  if(scroll < 2000){
+      $('.scrolled').css('color','white');
+  } else{
+      $('.scrolled').css('color', '#1b1818');
+  }
 });

@@ -83,11 +83,12 @@ div.content{
  color: gray;
 }
 /* projects */
-.scrolled.nav-color{
+
+.scrolled .nav-color{
   color: #1B1818 !important;
-  background-color: yellow;
+ 
 }
-.scrolled.nav-color:hover{
+.scrolled .nav-color:hover{
   color: gray !important;
 }
 
@@ -196,6 +197,7 @@ hr{
 footer{
   background-color:#EDEDED;
   font-family: 'Gayathri', sans-serif;
+  width:100%;
 }
 
 div>hr{
